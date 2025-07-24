@@ -13,3 +13,4 @@ pooch
 jupyterlite-sphinx>=0.19.1
 jupyterlite-pyodide-kernel
 linkify-it-py
+pillow>=10.2.0 # not directly required, pinned by Snyk to avoid a vulnerability
