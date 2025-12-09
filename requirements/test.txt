@@ -15,3 +15,4 @@ array-api-strict>=2.3.1
 Cython
 meson
 ninja; sys_platform != "emscripten"
+urllib3>=2.6.0 # not directly required, pinned by Snyk to avoid a vulnerability
