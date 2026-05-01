@@ -14,3 +14,5 @@ jupyterlite-sphinx>=0.19.1
 jupyterlite-pyodide-kernel
 linkify-it-py
 tabulate
+fonttools>=4.62.0 # not directly required, pinned by Snyk to avoid a vulnerability
+pygments>=2.20.0 # not directly required, pinned by Snyk to avoid a vulnerability
